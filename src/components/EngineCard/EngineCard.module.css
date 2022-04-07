@@ -1,0 +1,131 @@
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    min-height: 334px;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+}
+
+.cardContainer:hover{
+    transform: scale(1.02);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+    .cardContainer {     
+        width: 590px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .cardContainer {     
+        width: 685px;
+    }
+}
+
+img{
+    object-fit: contain;
+    width: inherit;
+    height: auto;
+}
+
+
+.cardTitle{
+    height: 61px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.cardContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (max-width: 425px) {
+    .cardContent {     
+        flex-direction: column;
+    }
+}
+
+.noProductCardContent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.imageContainer{
+    display: flex;
+    text-align: center;
+    height: 185px;
+    width: 261px;
+    margin-left: 21px;
+}
+
+.engineInfo{
+    display: flex;
+    flex-direction: column;
+    height: 273px;
+    width: 350px;
+    margin-left: 52px;
+    align-items: center;
+}
+
+@media (max-width: 375px) {
+    .engineInfo{
+        margin-left: 32px;
+    }
+}
+
+.engineInfoRow{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-right: 100px;
+    /* align-items: flex-start; */
+    /* justify-items: start; */
+}
+
+.infoTitle{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #6B7280;
+    ;
+}
+
+.infoContent{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.elapsedContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

@@ -1,0 +1,14 @@
+.progressContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.cardsContainer{
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 3rem;
+}
+
+@media (min-width: 1200px) {
+    .cardsContainer { grid-template-columns: repeat(2, 1fr); }
+}

@@ -1,0 +1,16 @@
+.topBar{
+    display: flex;
+    justify-content: center;
+    background-color: #1E3A8A;
+    color: white;
+    height: 77px;
+    margin-bottom: 51px;
+    width: 100%;
+    z-index: 10;
+}
+
+.root{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
