@@ -1,7 +1,7 @@
 {
   "main.css": "/ubisense-interview/static/css/main.d9ea8da3.chunk.css",
-  "main.js": "/ubisense-interview/static/js/main.c74a4d64.chunk.js",
-  "main.js.map": "/ubisense-interview/static/js/main.c74a4d64.chunk.js.map",
+  "main.js": "/ubisense-interview/static/js/main.32d8cf55.chunk.js",
+  "main.js.map": "/ubisense-interview/static/js/main.32d8cf55.chunk.js.map",
   "static/js/1.e4c12325.chunk.js": "/ubisense-interview/static/js/1.e4c12325.chunk.js",
   "static/js/1.e4c12325.chunk.js.map": "/ubisense-interview/static/js/1.e4c12325.chunk.js.map",
   "static/js/2.5183fcc2.chunk.js": "/ubisense-interview/static/js/2.5183fcc2.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/ubisense-interview/static/js/runtime~main.979a5aac.js.map",
   "static/css/main.d9ea8da3.chunk.css.map": "/ubisense-interview/static/css/main.d9ea8da3.chunk.css.map",
   "index.html": "/ubisense-interview/index.html",
-  "precache-manifest.07c81826fe845aee6eb7f68dc2a573bc.js": "/ubisense-interview/precache-manifest.07c81826fe845aee6eb7f68dc2a573bc.js",
+  "precache-manifest.98113535234e17e905817a9da6a4c883.js": "/ubisense-interview/precache-manifest.98113535234e17e905817a9da6a4c883.js",
   "service-worker.js": "/ubisense-interview/service-worker.js"
 }

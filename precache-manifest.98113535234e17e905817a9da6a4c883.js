@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c74a4d646ddc6f8f60d7",
+    "revision": "32d8cf5530f1a0c8648b",
     "url": "/ubisense-interview/static/css/main.d9ea8da3.chunk.css"
   },
   {
-    "revision": "c74a4d646ddc6f8f60d7",
-    "url": "/ubisense-interview/static/js/main.c74a4d64.chunk.js"
+    "revision": "32d8cf5530f1a0c8648b",
+    "url": "/ubisense-interview/static/js/main.32d8cf55.chunk.js"
   },
   {
     "revision": "e4c123256ec82141fcb1",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/ubisense-interview/static/js/runtime~main.979a5aac.js"
   },
   {
-    "revision": "c2afbee0e73a2ff59ae47d3765e9a809",
+    "revision": "30502afab12710c95e70dd5502ff2cbb",
     "url": "/ubisense-interview/index.html"
   }
 ];
