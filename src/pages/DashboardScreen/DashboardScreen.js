@@ -37,7 +37,7 @@ const DashboardScreen = () => {
     let engineMetadata = {};
     for (const workStation of workStations) {
       if (workStation.currentProduct !== null) {
-        const found = engines.find((engine) => engine.id == workStation.currentProduct.id);
+        const found = engines.find((engine) => engine.id === workStation.currentProduct.id);
         engineMetadata = {
           id: workStation.currentProduct.id,
           name: workStation.name,

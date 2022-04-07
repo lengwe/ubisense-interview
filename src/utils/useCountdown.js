@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 const useCountdown = (totalTime, entryTime) => {
   const initialTimeElapsed = new Date().getTime() - entryTime;
-  const initialRemainingTime = totalTime - timeElapsed;
+  const initialRemainingTime = totalTime - initialTimeElapsed;
 
   const [timeElapsed, setTimeElapsed] = useState(initialTimeElapsed);
   const [remainingTime, setRemainingTime] = useState(initialRemainingTime);

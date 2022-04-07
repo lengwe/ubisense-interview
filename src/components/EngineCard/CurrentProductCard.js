@@ -8,7 +8,7 @@ const CurrentProductCard = ({ imageURL, serialNumber, model, entryTime, cycleTim
   return (
     <div className={styles.cardContent}>
       <div className={styles.imageContainer}>
-        <img src={imageURL} />
+        <img src={imageURL} alt="" />
       </div>
       <Grid container className={styles.engineInfo}>
         <Grid item xs={6}>

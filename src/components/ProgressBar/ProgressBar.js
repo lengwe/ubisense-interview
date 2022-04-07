@@ -25,7 +25,7 @@ const ProgressBar = ({ totalTime, entryTime }) => {
       <div className={styles.elapsedContainer}>
         <span className={styles.infoTitle}>Time Elapsed</span>
         {progressBarStatus && (
-          <WarningIcon color={progressBarStatus == "critical" ? "error" : "warning"} sx={{ marginLeft: "10px" }} />
+          <WarningIcon color={progressBarStatus === "critical" ? "error" : "warning"} sx={{ marginLeft: "10px" }} />
         )}
       </div>
       <progress className={progressBarStatus && styles[progressBarStatus]} value={timeElapsed} max={totalTime} />

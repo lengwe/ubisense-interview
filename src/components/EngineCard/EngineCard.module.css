@@ -104,10 +104,7 @@ img{
 .engineInfoRow{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     margin-right: 100px;
-    /* align-items: flex-start; */
-    /* justify-items: start; */
 }
 
 .infoTitle{
