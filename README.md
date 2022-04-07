@@ -57,7 +57,7 @@ When the appplication starts, it normally takes time for fetching the data, ther
 In terms of the error handling, a catch black and the error state are implemented. If the error state is `true`, a different error component will then render to notify the user.
 
 #### **User Interface**
-I assume that the workstation card is clickable which navigates the user to another page, so each card is add some transformations when the user hover the cursor on top of it.
+I assume that the workstation card is clickable which navigates the user to another page, so each card is added some transformations when the user hovers the cursor on top of it.
 
 In terms of the responsiveness, the application is considered to be displayed nicely on different screen sizes. 
 - On a big screen size, the workstation cards are displayed in a 2xN grid configuration.
