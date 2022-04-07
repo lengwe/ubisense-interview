@@ -47,7 +47,6 @@ const DashboardScreen = () => {
           image: found.image,
           model: found.model,
         };
-        console.log(engineMetadata);
         setEngineData((prev) => [...prev, engineMetadata]);
       } else {
         engineMetadata = {
