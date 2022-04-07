@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ubisense-interview/precache-manifest.98113535234e17e905817a9da6a4c883.js"
+  "/ubisense-interview/precache-manifest.0f45c2e2afb9d594f144a562aca895d3.js"
 );
 
 workbox.clientsClaim();
