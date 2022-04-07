@@ -80,3 +80,5 @@ Clone this repo to your local machine and in the project root directory, you can
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
+Here is also a link of the application github page https://lengwe.github.io/ubisense-interview/
+
